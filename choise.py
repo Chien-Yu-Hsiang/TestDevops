@@ -73,4 +73,4 @@ for line in fin:
     fout.write(line.replace("question1", words[firstquestion]).replace("question2", words[secondquestion]).replace("question3", words[thirdquestion]))
 # close input and output files
 fin.close()
-fout.close()
+fout.close(),
